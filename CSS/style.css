@@ -1,6 +1,7 @@
 body{
     background-image: url("../Image/img4.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .top{
     font-family: 'Trade Winds', cursive;
