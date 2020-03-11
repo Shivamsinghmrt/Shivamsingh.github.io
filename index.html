@@ -11,15 +11,18 @@
     <title>Protfolio</title>
 </head>
 <body>
-    <div class=" container-fluid d-flex flex-row justify-content-around align-items-center top ">
-<div><strong class="display-4 text-dark">PORTFOLIO</strong></div>
-<div><a href="https://www.facebook.com/shivamthakur.mmm"><i class="fa fa-facebook fa-2x "></i></a></div>
-<div><a href="https://www.linkedin.com/in/shivam-singh1999/"><i class="fa fa-linkedin fa-2x"></i></a></div>
-<div><a href="mailto:shivam.16bcs1163@abes.ac.in"><i class="fa fa-google-plus fa-2x"></i></a></div>
-<div><a href="https://twitter.com/i_Shivam_Thakur"><i class="fa fa-twitter fa-2x "></i></a></div>
+    <div class="  topnav" id="myTopnav">
+<strong class="display-4 " style=" color: white; text-align: left;">PORTFOLIO</strong>
+<a href="https://www.faceb sook.com/shivamthakur.mmm"><i class="fa fa-facebook fa-2x "></i></a>
+<a href="https://www.linkedin.com/in/shivam-singh1999/"><i class="fa fa-linkedin fa-2x"></i></a>
+<a href="mailto:shivam.16bcs1163@abes.ac.in"><i class="fa fa-google-plus fa-2x"></i></a>
+<a href="https://twitter.com/i_Shivam_Thakur"><i class="fa fa-twitter fa-2x "></i></a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 
 </div>
-<div class="container">
+    <div class="container">
     
     <header>
     <div class="row no-gutters">
@@ -106,6 +109,15 @@
     $('.font-div').click(function(){
         $('.collapse').collapse('hide');
     });
+           function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
     </script>
 </body>
 </html>
